@@ -1,2 +1,2 @@
 #!/bin/bash
-cp .html /tmp/root
+find . -path "*/flac/*.html" -execdir mv -t ../ {} +
